@@ -40,7 +40,7 @@ const moneyto =async()=>{
   return (
     <BrowserRouter>
      <Routes>
-     <Route path="/" element ={<Home/>}/>
+     <Route path="/shop-sample" element ={<Home/>}/>
       <Route path="/Success" element={<Success/>}/>
       <Route path="/Cancelled" element={<Fail/>} />
      </Routes>
