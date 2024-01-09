@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 //import pic from 'D:\New folder (3)\payment_gateway\client\public\logo192.png';
-
+//https://amazon-server-r05j.onrender.com/
 const Home = () => {
     const itemName="watch";
     const itemprice =400;
@@ -20,7 +20,7 @@ const Home = () => {
         setFinalprice(Quantity*itemprice)}   
     }
     const HandlePayment =()=>{
-        fetch("http://localhost:5000/create-checkout-session",{
+        fetch("https://amazon-server-r05j.onrender.com/create-checkout-session",{
             method:'POST',
             headers:{
                 "Content-Type":"application/json"
